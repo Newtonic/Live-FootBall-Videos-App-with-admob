@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="253dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:id="@+id/game"/>
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/video"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:padding="2dp"
+            android:src="@drawable/sport"
+            android:layout_margin="2dp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:id="@+id/title_a"/>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".AboutActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f4f4f4"
+        android:text="Soccer Vydeos 1.0"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f4f4f4"
+        android:layout_marginTop="10dp"
+        android:text="Disclaimer:"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f4f4f4"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:text="We do not host, own or store any of the content in this app. We only embed the videos and they are properties of their respective owners.\n The content of this app is provided by www.scorebat.com and can be found on their website.
+\nWe are not patners or affiliates to www.scorebat.com"/>
+
+
+</LinearLayout>
